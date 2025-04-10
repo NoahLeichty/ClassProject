@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -51,6 +53,30 @@ public class Main {
     private static void lunch(){
         System.out.println("What culture or cuisine?");
         scan.nextLine();
+
+        // American cuisine
+        List<String> american = new ArrayList<>();
+        american.add("Not-So-Sloppy Joes");
+        american.add("Homemade Beef Burger");
+        american.add("Tater Tot Casserole");
+
+        // Italian cuisine
+        List<String> italian = new ArrayList<>();
+        italian.add("Italian BLT Sandwich");
+        italian.add("Italian Rosemary Chicken Wings");
+        italian.add("Italian Sausage and Caramelized Onion Pizza");
+
+        //Japanese cuisine
+        List<String> japanese = new ArrayList<>();
+        japanese.add("Furikake Salmon");
+        japanese.add("Spicy Tuna Onigiri (Japanese Rice Balls)");
+        japanese.add("Teriyaki Spam Musubi");
+
+        //Chinese cuisine
+        List<String> chinese = new ArrayList<>();
+        chinese.add("Egg Rolls");
+        chinese.add("Szechwan Shrimp");
+        chinese.add("Potstickers (Chinese Dumplings)");
     }
     // Method for dinner recipes
     private static void dinner(){
