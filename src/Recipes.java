@@ -3,33 +3,50 @@ import java.util.List;
 import java.util.Scanner;
 public class Recipes {
 
+    // Lists for recipes
+    private List<String> american;
+    private List<String> italian;
+    private List<String> japanese;
+    private List<String> chinese;
+
     // Constructor
     public Recipes(){
-        setLunchRecipes();
+        this.chinese=new ArrayList<>();
+        this.japanese=new ArrayList<>();
+        this.italian=new ArrayList<>();
+        this.american=new ArrayList<>();
     }
-    // Setter
-    public void setLunchRecipes() {
-        List<String> american = new ArrayList<>();
-        american.add("Not-So-Sloppy Joes");
-        american.add("Homemade Beef Burger");
-        american.add("Tater Tot Casserole");
-
-        // Italian cuisine
-        List<String> italian = new ArrayList<>();
-        italian.add("Italian BLT Sandwich");
-        italian.add("Italian Rosemary Chicken Wings");
-        italian.add("Italian Sausage and Caramelized Onion Pizza");
-
-        //Japanese cuisine
-        List<String> japanese = new ArrayList<>();
-        japanese.add("Furikake Salmon");
-        japanese.add("Spicy Tuna Onigiri (Japanese Rice Balls)");
-        japanese.add("Teriyaki Spam Musubi");
-
-        //Chinese cuisine
-        List<String> chinese = new ArrayList<>();
-        chinese.add("Egg Rolls");
-        chinese.add("Szechwan Shrimp");
-        chinese.add("Potstickers (Chinese Dumplings)");
+    // Setter for American
+    public void setAmerican(String recipe) {
+        this.american.add(recipe);
+        american.add("something");
+    }
+    // Getter for American
+    public String getAmerican(){
+        return this.american.toString();
+    }
+    // Setter for Italian
+    public void setItalian(String recipe){
+        this.italian.add(recipe);
+    }
+    // Getter for Italian
+    public String getItalian(){
+        return this.italian.toString();
+    }
+    // Setter for Japanese
+    public void setJapanese(String recipe){
+        this.japanese.add(recipe);
+    }
+    // Getter for Japanese
+    public String getJapanese(){
+        return this.japanese.toString();
+    }
+    // Setter for Chinese
+    public void setChinese(String recipe){
+        this.chinese.add(recipe);
+    }
+    // Getter for Chinese
+    public String getChinese(){
+        return this.chinese.toString();
     }
 }

@@ -39,7 +39,7 @@ public class Utilities {
                     brunch();
                     return;
                 case 3:
-                    lunch();
+                    getLunch();
                     return;
                 case 4:
                     dinner();
@@ -60,15 +60,25 @@ public class Utilities {
     public void brunch(){
 
     }
-    // Method for lunch recipes
-    private void lunch(){
+    // Setter for lunch recipes
+    private void setLunch(){
+
+        Recipes recipes = new Recipes();
+        recipes.setAmerican("something");
+    }
+    public String getLunch(){
+        setLunch();
         System.out.println("What culture or cuisine?");
         String choice = scan.nextLine();
         Recipes recipes = new Recipes();
+        recipes.getAmerican();
+        recipes.setAmerican("");
+        String listString = recipes.getAmerican().toString();
 
-        if (choice.toLowerCase().startsWith("A")){
-            System.out.println();
+        if (choice.toLowerCase().startsWith("a")){
+            System.out.println(recipes.getAmerican());
         }
+        return listString;
     }
     // Method for dinner recipes
     private void dinner(){
