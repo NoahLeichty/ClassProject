@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Recipes {
 
     // Lists for recipes
-    private List<String> american;
-    private List<String> italian;
-    private List<String> japanese;
-    private List<String> chinese;
+    private final List<String> american;
+    private final List<String> italian;
+    private final List<String> japanese;
+    private final List<String> chinese;
 
     // Constructor
     public Recipes(){
@@ -18,12 +18,13 @@ public class Recipes {
     }
     // Setter for American
     public void setAmerican(String recipe) {
+        Utilities utilities = new Utilities();
         this.american.add(recipe);
-        american.add("something");
     }
     // Getter for American
-    public String getAmerican(){
-        return this.american.toString();
+    public List<String> getAmerican(){
+        Utilities utilities = new Utilities();
+        return this.american;
     }
     // Setter for Italian
     public void setItalian(String recipe){

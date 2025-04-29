@@ -12,7 +12,6 @@ public class Utilities {
     public Utilities(){
         greeting();
         getRecipes();
-        Recipes recipes = new Recipes();
     }
 
     // Setter
@@ -48,7 +47,6 @@ public class Utilities {
                     break Loop;
                 default:
                     System.out.println("Invalid choice! Exiting...");
-
             }
         }
 
@@ -62,29 +60,27 @@ public class Utilities {
     }
     // Setter for lunch recipes
     private void setLunch(){
-
         Recipes recipes = new Recipes();
         recipes.setAmerican("something");
+        recipes.setAmerican("something else");
     }
     public String getLunch(){
-        setLunch();
         System.out.println("What culture or cuisine?");
         String choice = scan.nextLine();
         Recipes recipes = new Recipes();
-        recipes.getAmerican();
-        recipes.setAmerican("");
-        String listString = recipes.getAmerican().toString();
 
         if (choice.toLowerCase().startsWith("a")){
-            System.out.println(recipes.getAmerican());
+                System.out.println(String.join(", ", recipes.getAmerican()));
+            }
+        return String.join(", " + recipes.getAmerican());
         }
-        return listString;
-    }
+
+
     // Method for dinner recipes
     private void dinner(){
     }
 
-    // toString for greeting
+    // toString for exiting message
     public String toString(){
         return "Thanks for using our app!";
     }
