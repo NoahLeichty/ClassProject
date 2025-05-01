@@ -4,8 +4,10 @@ import java.util.Scanner;
 public class Utilities {
     private static final Scanner scan = new Scanner(System.in);
 
-    public static void getRecipes(){
+    Recipes recipes = new Recipes();
 
+    public static void getRecipes(){
+        Recipes recipes = new Recipes();
     }
 
     //Constructor
@@ -14,17 +16,16 @@ public class Utilities {
         getRecipes();
     }
 
-    // Setter
+    // greeting setter
     private void greeting() {
         Loop:
         {
             System.out.println("""
                     Please select what meal you want!
                     \t1. Breakfast
-                    \t2. Brunch
-                    \t3. Lunch
-                    \t4. Dinner
-                    \t5. Exit
+                    \t2. Lunch
+                    \t3. Dinner
+                    \t4. Exit
                     """);
 
             int choice;
@@ -32,52 +33,21 @@ public class Utilities {
 
             switch (choice) {
                 case 1:
-                    breakfast();
+                    recipes.getBreakfast();
                     return;
                 case 2:
-                    brunch();
+                    recipes.getLunch();
                     return;
                 case 3:
-                    getLunch();
+                    recipes.getDinner();
                     return;
                 case 4:
-                    dinner();
-                    return;
-                case 5:
                     break Loop;
                 default:
                     System.out.println("Invalid choice! Exiting...");
             }
         }
 
-    }
-    // Method for breakfast recipes
-    public void breakfast(){
-    }
-    // Method for brunch recipes
-    public void brunch(){
-
-    }
-    // Setter for lunch recipes
-    private void setLunch(){
-        Recipes recipes = new Recipes();
-        recipes.setAmerican("something");
-        recipes.setAmerican("something else");
-    }
-    public String getLunch(){
-        System.out.println("What culture or cuisine?");
-        String choice = scan.nextLine();
-        Recipes recipes = new Recipes();
-
-        if (choice.toLowerCase().startsWith("a")){
-                System.out.println(String.join(", ", recipes.getAmerican()));
-            }
-        return String.join(", " + recipes.getAmerican());
-        }
-
-
-    // Method for dinner recipes
-    private void dinner(){
     }
 
     // toString for exiting message

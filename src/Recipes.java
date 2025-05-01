@@ -1,53 +1,62 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.SimpleTimeZone;
+
 public class Recipes {
+    private List<String> setBreakfast;
+    private List<String> setLunch;
+    private List<String> setDinner;
 
-    // Lists for recipes
-    private final List<String> american;
-    private final List<String> italian;
-    private final List<String> japanese;
-    private final List<String> chinese;
 
-    // Constructor
     public Recipes(){
-        this.chinese=new ArrayList<>();
-        this.japanese=new ArrayList<>();
-        this.italian=new ArrayList<>();
-        this.american=new ArrayList<>();
+        this.setBreakfast = new ArrayList<>();
+        this.setLunch = new ArrayList<>();
+        this.setDinner = new ArrayList<>();
     }
-    // Setter for American
-    public void setAmerican(String recipe) {
-        Utilities utilities = new Utilities();
-        this.american.add(recipe);
+
+    public void setBreakfast(){
+        // american cuisine list
+        List <String> american = new ArrayList<>();
+        // italian cuisine list
+        List <String> italian = new ArrayList<>();
+        // japanese cuisine list
+        List <String> japanese = new ArrayList<>();
+        // chinese cuisine list
+        List <String> chinese = new ArrayList<>();
     }
-    // Getter for American
-    public List<String> getAmerican(){
-        Utilities utilities = new Utilities();
-        return this.american;
+    public String getBreakfast(){
+        return "";
     }
-    // Setter for Italian
-    public void setItalian(String recipe){
-        this.italian.add(recipe);
+    public void setLunch(List<String> setLunch){
+        this.setLunch = setLunch;
+        // american cuisine list
+        List <String> american = new ArrayList<>();
+        american.add("example");
+        // italian cuisine list
+        List <String> italian = new ArrayList<>();
+        italian.add("example");
+        // japanese cuisine list
+        List <String> japanese = new ArrayList<>();
+        japanese.add("example");
+        // chinese cuisine list
+        List <String> chinese = new ArrayList<>();
+        chinese.add("example");
     }
-    // Getter for Italian
-    public String getItalian(){
-        return this.italian.toString();
+    public String getLunch(){
+        return String.join("", this.setLunch);
     }
-    // Setter for Japanese
-    public void setJapanese(String recipe){
-        this.japanese.add(recipe);
+    public void setDinner(){
+        // american cuisine list
+        List <String> american = new ArrayList<>();
+        // italian cuisine list
+        List <String> italian = new ArrayList<>();
+        // japanese cuisine list
+        List <String> japanese = new ArrayList<>();
+        // chinese cuisine list
+        List <String> chinese = new ArrayList<>();
     }
-    // Getter for Japanese
-    public String getJapanese(){
-        return this.japanese.toString();
-    }
-    // Setter for Chinese
-    public void setChinese(String recipe){
-        this.chinese.add(recipe);
-    }
-    // Getter for Chinese
-    public String getChinese(){
-        return this.chinese.toString();
+    public String getDinner(){
+        return "";
     }
 }
