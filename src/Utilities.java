@@ -4,16 +4,9 @@ import java.util.Scanner;
 public class Utilities {
     private static final Scanner scan = new Scanner(System.in);
 
-    Recipes recipes = new Recipes();
-
-    public static void getRecipes(){
-        Recipes recipes = new Recipes();
-    }
-
     //Constructor
     public Utilities(){
         greeting();
-        getRecipes();
     }
 
     // greeting setter
@@ -33,13 +26,13 @@ public class Utilities {
 
             switch (choice) {
                 case 1:
-                    recipes.getBreakfast();
+                    getBreaksfast();
                     return;
                 case 2:
-                    recipes.getLunch();
+                    getLunch();
                     return;
                 case 3:
-                    recipes.getDinner();
+                    getDinner();
                     return;
                 case 4:
                     break Loop;
@@ -47,7 +40,22 @@ public class Utilities {
                     System.out.println("Invalid choice! Exiting...");
             }
         }
+    }
+    private void setBreakfast() {
+    }
+    public String getBreaksfast(){
+        return "";
+    }
+    private void setLunch(String lunch){
+    }
+    public String getLunch() {
+        return "";
+    }
+    private void setDinner(){
 
+    }
+    public String getDinner(){
+        return "";
     }
 
     // toString for exiting message

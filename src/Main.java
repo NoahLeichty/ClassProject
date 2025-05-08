@@ -9,7 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
         Utilities utilities = new Utilities();
-        Recipes recipes = new Recipes();
-        System.out.println(recipes.getLunch());
+        System.out.println();
     }
 }

@@ -4,59 +4,27 @@ import java.util.Scanner;
 import java.util.SimpleTimeZone;
 
 public class Recipes {
-    private List<String> setBreakfast;
-    private List<String> setLunch;
-    private List<String> setDinner;
+    // Variables
+    private String name;
+    private List<String> ingredients;
+    private String instructions;
 
-
-    public Recipes(){
-        this.setBreakfast = new ArrayList<>();
-        this.setLunch = new ArrayList<>();
-        this.setDinner = new ArrayList<>();
+    // Constructor
+    public Recipes(String name, List<String> ingredients, String instructions) {
+        this.name = name;
+        this.ingredients = ingredients;
+        this.instructions = instructions;
     }
-
-    public void setBreakfast(){
-        // american cuisine list
-        List <String> american = new ArrayList<>();
-        // italian cuisine list
-        List <String> italian = new ArrayList<>();
-        // japanese cuisine list
-        List <String> japanese = new ArrayList<>();
-        // chinese cuisine list
-        List <String> chinese = new ArrayList<>();
+    // Getter for recipe name
+    public String getName(){
+        return name;
     }
-    public String getBreakfast(){
-        return "";
+    // Getter for recipe ingredients
+    public List<String> getIngredients(){
+        return ingredients;
     }
-    public void setLunch(List<String> setLunch){
-        this.setLunch = setLunch;
-        // american cuisine list
-        List <String> american = new ArrayList<>();
-        american.add("example");
-        // italian cuisine list
-        List <String> italian = new ArrayList<>();
-        italian.add("example");
-        // japanese cuisine list
-        List <String> japanese = new ArrayList<>();
-        japanese.add("example");
-        // chinese cuisine list
-        List <String> chinese = new ArrayList<>();
-        chinese.add("example");
-    }
-    public String getLunch(){
-        return String.join("", this.setLunch);
-    }
-    public void setDinner(){
-        // american cuisine list
-        List <String> american = new ArrayList<>();
-        // italian cuisine list
-        List <String> italian = new ArrayList<>();
-        // japanese cuisine list
-        List <String> japanese = new ArrayList<>();
-        // chinese cuisine list
-        List <String> chinese = new ArrayList<>();
-    }
-    public String getDinner(){
-        return "";
+    // getter for instructions
+    public String getInstructions(){
+        return instructions;
     }
 }
