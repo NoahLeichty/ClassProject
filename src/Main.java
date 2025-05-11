@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Main {
     private static final Scanner scan = new Scanner(System.in);
 
-
     public static void main(String[] args) {
         Utilities utilities = new Utilities();
-        System.out.println();
+        Recipes recipes = new Recipes();
+        List<String>tempList = new ArrayList<>();
     }
 }
