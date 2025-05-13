@@ -42,19 +42,21 @@ public class Utilities {
                     int subChoice1 = scan.nextInt();
                     switch (subChoice1) {
                         case 1:
-                            displayBreakfastAmericanName();
+                            displayRecipeNames();
                             int finalChoice1 = scan.nextInt();
                             switch (finalChoice1){
                                 case 1:
-                                    displayBreakfastAmericanRecipe();
+
                                     break outerLoop;
+                                case 2:
+
                             }
                         case 2:
-                            displayBreakfastItalianName();
+
                             int finalChoice2 = scan.nextInt();
                             switch (finalChoice2){
                                 case 1:
-                                    displayBreakfastItalianRecipe();
+
                                     break outerLoop;
                         }
                         case 3:
@@ -130,21 +132,39 @@ public class Utilities {
                             \t5. Back
                             """);
     }
-    private void displayBreakfastAmericanName(){
+    private void setRecipeNames(){
+        recipes.setRecipeName("Name");
+        recipes.setRecipeName("Another Name");
+        recipes.setRecipeName("Final Name");
+    }
+    private void setAllRecipes(){
+        /// Breakfast
+        // American
+        recipes.setRecipes("name",0);
+        recipes.setRecipes("another name", 1);
+        recipes.setRecipes("final name", 3);
+    }
+    private void displayRecipeNames(){
+
+    }
+    private void displayRecipes(){
+
+    }
+    /*private void displayBreakfastAmericanName(){
         recipes.setRecipeName("Something");
         recipes.setRecipeName("else");
         recipes.setRecipeName("another");
         System.out.println(recipes.getRecipeName());
     }
     private void displayBreakfastAmericanRecipe(){
-        recipes.setAmerican("something",0);
-        recipes.setAmerican("else",1);
-        recipes.setAmerican("Another",2);
+        recipes.setRecipes("something", 0);
+        recipes.setRecipes("else",1);
+        recipes.setRecipes("Another",2);
+        System.out.println(recipes.getRecipes(0));
     }
     private void displayBreakfastItalianName(){
-        recipes.setRecipeName("""
-                \t1. stuff
-                \t2. other""");
+        recipes.setRecipeName("name");
+        recipes.setRecipeName("second name");
         System.out.println(recipes.getRecipeName());
     }
     private void displayBreakfastItalianRecipe(){
@@ -209,7 +229,7 @@ public class Utilities {
     }
     private void displayDinnerChineseRecipe(){
 
-    }
+    }*/
 
     // toString for exiting message
     private void exitMessage(){
