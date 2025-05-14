@@ -66,7 +66,7 @@ public class Utilities {
                             System.out.println("Chinese selected.");
                             break outerLoop;
                         case 5:
-                            continue outerLoop;
+                            continue;
                         default:
                             System.out.println("Invalid Cuisine!");
                     }
@@ -88,7 +88,7 @@ public class Utilities {
                             System.out.println("Chinese selected");
                             break outerLoop;
                         case 5:
-                            continue outerLoop;
+                            continue;
                         default:
                             System.out.println("Invalid Cuisine!");
                     }
@@ -110,7 +110,7 @@ public class Utilities {
                             System.out.println("Chinese selected");
                             break outerLoop;
                         case 5:
-                            continue outerLoop;
+                            continue;
                         default:
                             System.out.println("Invalid Cuisine!");
                     }
@@ -133,9 +133,9 @@ public class Utilities {
                             """);
     }
     private void setRecipeNames(){
-        recipes.setRecipeName("Name");
-        recipes.setRecipeName("Another Name");
-        recipes.setRecipeName("Final Name");
+        recipes.setRecipeName("\t 1.Name",0);
+        recipes.setRecipeName("Recipe",1);
+        recipes.setRecipeName("Stuff",2);
     }
     private void setAllRecipes(){
         /// Breakfast
@@ -145,10 +145,12 @@ public class Utilities {
         recipes.setRecipes("final name", 3);
     }
     private void displayRecipeNames(){
-
+        setRecipeNames();
+        System.out.println(recipes.getRecipeName(0));
+        System.out.println(recipes.getRecipeName(1));
     }
     private void displayRecipes(){
-
+        setAllRecipes();
     }
     /*private void displayBreakfastAmericanName(){
         recipes.setRecipeName("Something");

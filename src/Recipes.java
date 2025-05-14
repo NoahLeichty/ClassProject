@@ -19,7 +19,12 @@ public class Recipes {
         this.recipeName = new ArrayList<>();
         this.recipes = new ArrayList<>();
     }
-    public String getRecipeName(){
+    public String getRecipeName(int index){
+        if (index >= 0 && index < recipeName.size()) {
+            return recipeName.get(index);
+        } else {
+            System.out.println("Invalid recipe");
+        }
         StringBuilder recipe = new StringBuilder();
         for (int i = 0; i < recipeName.size(); i++) {
             recipe.append(i + 1).append(". ").append(recipeName.get(i));
@@ -28,8 +33,9 @@ public class Recipes {
             }
         }
         return recipe.toString();
+
     }
-    public void setRecipeName(String recipeName){
+    public void setRecipeName(String recipeName, int index){
         this.recipeName.add(recipeName);
     }
     public String getRecipes(int index) {
