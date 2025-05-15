@@ -354,24 +354,34 @@ public class Utilities {
                             switch (finalChoice8) {
                                 // Display individual Lunch Chinese recipes
                                 case 1:
+                                    recipes.displayKungPaoChickenRecipe();
                                     break outerLoop;
                                 case 2:
+                                    recipes.displaySweetAndSourPorkRecipe();
                                     break outerLoop;
                                 case 3:
+                                    recipes.displayEggFriedRiceRecipe();
                                     break outerLoop;
                                 case 4:
+                                    recipes.displayMapoTofuRecipe();
                                     break outerLoop;
                                 case 5:
+                                    recipes.displayBeefAndBroccoliStirFryRecipe();
                                     break outerLoop;
                                 case 6:
+                                    recipes.displayHotAndSourSoupRecipe();
                                     break outerLoop;
                                 case 7:
+                                    recipes.displaySpringRollsRecipe();
                                     break outerLoop;
                                 case 8:
+                                    recipes.displayLoMeinRecipe();
                                     break outerLoop;
                                 case 9:
+                                    recipes.displayCharSiuRecipe();
                                     break outerLoop;
                                 case 10:
+                                    recipes.displayWontonSoupRecipe();
                                     break outerLoop;
                                 default:
                                     System.out.println("Invalid Recipe");

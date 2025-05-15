@@ -870,6 +870,99 @@ public class Recipes {
     public void displayKungPaoChickenRecipe(){
         setRecipes("""
                 You Selected Kung Pao Chicken!
+                Ingredients: Chicken breast, peanuts, bell peppers, soy sauce, garlic, ginger, chili peppers
+                Cooking Time: 25 minutes
+                Description: A spicy and savory stir-fry with tender chicken, crunchy peanuts, and bold flavors
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Sweet and Sour Pork Recipe
+    public void displaySweetAndSourPorkRecipe(){
+        setRecipes("""
+                You Selected Sweet and Sour Pork!
+                Ingredients: Pork, bell peppers, pineapple, vinegar, sugar, soy sauce, cornstarch
+                Cooking Time: 30 minutes
+                Description: Crispy pork coated in a tangy sweet-and-sour sauce with fresh vegetables
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Egg Fried Rice Recipe
+    public void displayEggFriedRiceRecipe(){
+        setRecipes("""
+                You Selected Egg Fried Rice!
+                Ingredients: Cooked rice, eggs, scallions, soy sauce, garlic, oil
+                Cooking Time: 15 minutes
+                Description: A simple yet flavorful fried rice dish with scrambled eggs and aromatic seasonings
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Mapo Tofu Recipe
+    public void displayMapoTofuRecipe(){
+        setRecipes("""
+                You Selected Mapo Tofu!
+                Ingredients: Tofu, ground pork, Sichuan peppercorns, chili bean paste, garlic, ginger
+                Cooking Time: 20 minutes
+                Description: A spicy and numbing tofu dish with ground pork and bold Sichuan flavors
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Beef and Broccoli Stir-Fry Recipe
+    public void displayBeefAndBroccoliStirFryRecipe(){
+        setRecipes("""
+                You Selected Beef and Broccoli Stir-Fry!
+                Ingredients: Beef slices, broccoli, soy sauce, garlic, ginger, oyster sauce
+                Cooking Time: 20 minutes
+                Description: Tender beef and crisp broccoli tossed in a savory sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Hot and Sour Soup Recipe
+    public void displayHotAndSourSoupRecipe(){
+        setRecipes("""
+                You Selected Hot and Sour Soup!
+                Ingredients: Mushrooms, tofu, bamboo shoots, vinegar, soy sauce, chili paste, egg
+                Cooking Time: 30 minutes
+                Description: A flavorful soup with a balance of spicy and tangy notes
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Spring Rolls Recipe
+    public void displaySpringRollsRecipe(){
+        setRecipes("""
+                You Selected Spring Rolls!
+                Ingredients: Cabbage, carrots, mushrooms, shrimp or pork, soy sauce, wrappers
+                Cooking Time: 40 minutes
+                Description: Crispy, golden-brown rolls filled with a mix of vegetables and protein
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Lo Mein Recipe
+    public void displayLoMeinRecipe(){
+        setRecipes("""
+                You Selected Lo Mein!
+                Ingredients: Egg noodles, bell peppers, carrots, soy sauce, garlic, sesame oil
+                Cooking Time: 20 minutes
+                Description: Soft noodles stir-fried with vegetables and a savory sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Char Siu Recipe
+    public void displayCharSiuRecipe(){
+        setRecipes("""
+                You Selected Char Siu!
+                Ingredients: Pork loin, hoisin sauce, soy sauce, honey, five-spice powder
+                Cooking Time: 1 hour
+                Description: Sweet and savory roasted pork with a caramelized glaze
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Wonton Soup Recipe
+    public void displayWontonSoupRecipe(){
+        setRecipes("""
+                You Selected Wonton Soup!
+                Ingredients: Wonton wrappers, ground pork, shrimp, ginger, garlic, broth
+                Cooking Time: 40 minutes
+                Description: A comforting soup with delicate wontons in a flavorful broth   
                 """);
         System.out.println(getRecipes());
     }
