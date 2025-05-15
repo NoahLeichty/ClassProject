@@ -488,24 +488,34 @@ public class Utilities {
                             switch (finalChoice11) {
                                 // Display individual Dinner Japanese recipe names
                                 case 1:
+                                    recipes.displayTeriyakiChickenRecipe();
                                     break outerLoop;
                                 case 2:
+                                    recipes.displayKatsuCurryRecipe();
                                     break outerLoop;
                                 case 3:
+                                    recipes.displaySukiyakiRecipe();
                                     break outerLoop;
                                 case 4:
+                                    recipes.displayOkonomiyakiRecipe();
                                     break outerLoop;
                                 case 5:
+                                    recipes.displayShabuShabuRecipe();
                                     break outerLoop;
                                 case 6:
+                                    recipes.displayGyozaRecipe();
                                     break outerLoop;
                                 case 7:
+                                    recipes.displayUnagiDonRecipe();
                                     break outerLoop;
                                 case 8:
+                                    recipes.displayNabeyakiUdonRecipe();
                                     break outerLoop;
                                 case 9:
+                                    recipes.displayYakitoriRecipe();
                                     break outerLoop;
                                 case 10:
+                                    recipes.displayChirashiSushiRecipe();
                                     break outerLoop;
                                 default:
                                     System.out.println("Invalid Recipe");

@@ -1197,11 +1197,122 @@ public class Recipes {
                 """);
         System.out.println(getRecipes());
     }
-    // Displaying recipe names for Dinner Japanese
+    /// Displaying recipe names for Dinner Japanese
     public void displayDinnerJapaneseRecipeNames(){
-
+        setRecipeName("Teriyaki Chicken");
+        setRecipeName("Katsu Curry");
+        setRecipeName("Sukiyaki");
+        setRecipeName("Okonomiyaki (Japanese Savory Pancake)");
+        setRecipeName("Shabu-Shabu (Japanese Hot Pot)");
+        setRecipeName("Gyoza (Japanese Dumplings)");
+        setRecipeName("Unagi Don (Grilled Eel Rice Bowl)");
+        setRecipeName("Nabeyaki Udon");
+        setRecipeName("Yakitori (Grilled Chicken Skewers)");
+        setRecipeName("Chirashi Sushi (Scattered Sushi Bowl)");
+        System.out.println(getRecipeName());
     }
-    // Displaying recipe names for Dinner Chinese
+    /// Displaying recipes for Dinner Japanese
+    // Displays Teriyaki Chicken Recipe
+    public void displayTeriyakiChickenRecipe(){
+        setRecipes("""
+                You Selected Teriyaki Chicken!
+                Ingredients: Chicken thighs, soy sauce, mirin, sugar, garlic, ginger
+                Cooking Time: 30 minutes
+                Description: Juicy chicken glazed with a sweet and savory teriyaki sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Katsu Curry Recipe
+    public void displayKatsuCurryRecipe(){
+        setRecipes("""
+                You Selected Katsu Curry!
+                Ingredients: Pork cutlet, Japanese curry roux, potatoes, carrots, onions, rice
+                Cooking Time: 45 minutes
+                Description: Crispy breaded pork cutlet served with rich Japanese curry over rice
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Sukiyaki Recipe
+    public void displaySukiyakiRecipe(){
+        setRecipes("""
+                You Selected Sukiyaki!
+                Ingredients: Thinly sliced beef, tofu, mushrooms, cabbage, soy sauce, mirin, sugar
+                Cooking Time: 40 minutes
+                Description: A flavorful hot pot dish with beef and vegetables simmered in a sweet soy-based broth
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Okonomiyaki Recipe
+    public void displayOkonomiyakiRecipe(){
+        setRecipes("""
+                You Selected Okonomiyaki!
+                Ingredients: Flour, eggs, cabbage, pork belly, bonito flakes, okonomiyaki sauce
+                Cooking Time: 30 minutes
+                Description: A savory pancake packed with cabbage and topped with a rich sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Shabu-Shabu Recipe
+    public void displayShabuShabuRecipe(){
+        setRecipes("""
+                You Selected Shabu-Shabu!
+                Ingredients: Thinly sliced beef, napa cabbage, mushrooms, tofu, dipping sauces
+                Cooking Time: 30 minutes
+                Description: A communal hot pot dish where ingredients are quickly swirled in boiling broth
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Gyoza Recipe
+    public void displayGyozaRecipe(){
+        setRecipes("""
+                You Selected Gyoza!
+                Ingredients: Ground pork, cabbage, garlic, ginger, soy sauce, dumpling wrappers
+                Cooking Time: 35 minutes
+                Description: Crispy pan-fried dumplings filled with a flavorful pork and vegetable mixture
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Unagi Don Recipe
+    public void displayUnagiDonRecipe(){
+        setRecipes("""
+                You Selected Unagi Don!
+                Ingredients: Grilled eel, soy sauce, mirin, sugar, rice
+                Cooking Time: 30 minutes
+                Description: Tender grilled eel glazed with a sweet soy-based sauce, served over rice
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Nabeyaki Udon Recipe
+    public void displayNabeyakiUdonRecipe(){
+        setRecipes("""
+                You Selected Nabeyaki Udon!
+                Ingredients: Udon noodles, dashi broth, chicken, mushrooms, tempura shrimp, egg
+                Cooking Time: 40 minutes
+                Description: A comforting noodle soup with a variety of toppings
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Yakitori Recipe
+    public void displayYakitoriRecipe(){
+        setRecipes("""
+                You Selected Yakitori!
+                Ingredients: Chicken thigh, soy sauce, mirin, sugar, skewers
+                Cooking Time: 25 minutes
+                Description: Juicy grilled chicken skewers brushed with a flavorful sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Chirashi Sushi Recipe
+    public void displayChirashiSushiRecipe(){
+        setRecipes("""
+                You Selected Chirashi Sushi!
+                Ingredients: Sushi rice, assorted sashimi, cucumber, avocado, soy sauce
+                Cooking Time: 30 minutes
+                Description: A colorful sushi bowl with fresh fish and vegetables
+                """);
+        System.out.println(getRecipes());
+    }
+    /// Displaying recipe names for Dinner Chinese
     public void displayDinnerChineseRecipeNames(){
 
     }
