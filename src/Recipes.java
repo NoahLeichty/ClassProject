@@ -7,9 +7,8 @@ import java.util.SimpleTimeZone;
 public class Recipes {
     FileHandling fileHandling = new FileHandling();
 
+    // ToDo add subclass with override
     // ToDo add allergy option
-    // ToDo make this better
-    // ToDo add more comments
 
     // Lists
     private List<String> recipeName;
@@ -1314,6 +1313,117 @@ public class Recipes {
     }
     /// Displaying recipe names for Dinner Chinese
     public void displayDinnerChineseRecipeNames(){
-
+        setRecipeName("Spicy Garlic Eggplant");
+        setRecipeName("Crispy Honey Walnut Shrimp");
+        setRecipeName("Szechuan Pepper Chicken");
+        setRecipeName("Braised Pork Belly (Hong Shao Rou)");
+        setRecipeName("Cantonese Steamed Fish");
+        setRecipeName("Black Bean Beef Stir-Fry");
+        setRecipeName("Salt and Pepper Tofu");
+        setRecipeName("Shanghai Scallion Oil Noodles");
+        setRecipeName("Pineapple Chicken Stir-Fry");
+        setRecipeName("Chinese Tomato and Egg Stir-Fry");
+        System.out.println(getRecipeName());
+    }
+    /// Displaying recipes for Dinner Chinese
+    // Displays Spicy Garlic Eggplant Recipe
+    public void displaySpicyGarlicEggplantRecipe(){
+        setRecipes("""
+                You Selected Spicy Garlic Eggplant!
+                Ingredients: Eggplant, garlic, soy sauce, chili paste, sugar, sesame oil
+                Cooking Time: 25 minutes
+                Description: Tender eggplant stir-fried in a bold garlic and chili sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Crispy Honey Walnut Shrimp Recipe
+    public void displayCrispyHoneyWalnutShrimpRecipe(){
+        setRecipes("""
+                You Selected Crispy Honey Walnut Shrimp!
+                Ingredients: Shrimp, walnuts, honey, mayonnaise, condensed milk, cornstarch
+                Cooking Time: 30 minutes
+                Description: Crispy shrimp coated in a creamy honey glaze with candied walnuts
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Szechuan Pepper Chicken Recipe
+    public void displaySzechuanPepperChickenRecipe(){
+        setRecipes("""
+                You Selected Szechuan Pepper Chicken!
+                Ingredients: Chicken, Szechuan peppercorns, garlic, ginger, soy sauce, chili flakes
+                Cooking Time: 30 minutes
+                Description: A spicy, numbing chicken stir-fry with bold Szechuan flavors
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Braised Pork Belly Recipe
+    public void displayBraisedPorkBellyRecipe(){
+        setRecipes("""
+                You Selected Braised Pork Belly!
+                Ingredients: Pork belly, soy sauce, sugar, ginger, star anise, rice wine
+                Cooking Time: 1 hour
+                Description: Slow-braised pork belly in a rich, caramelized sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Cantonese Steamed Fish Recipe
+    public void displayCantoneseSteamedFishRecipe(){
+        setRecipes("""
+                You Selected Cantonese Steamed Fish!
+                Ingredients: White fish fillet, soy sauce, ginger, scallions, sesame oil
+                Cooking Time: 20 minutes
+                Description: Delicate steamed fish with fragrant ginger and scallion sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Black Bean Beef Stir-Fry Recipe
+    public void displayBlackBeanBeefStirFryRecipe(){
+        setRecipes("""
+                You Selected Black Bean Beef Stir-Fry!
+                Ingredients: Beef slices, black bean sauce, bell peppers, garlic, soy sauce
+                Cooking Time: 20 minutes
+                Description: Savory beef stir-fry with a rich black bean sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Salt and Pepper Tofu Recipe
+    public void displaySaltAndPepperTofuRecipe(){
+        setRecipes("""
+                You Selected Salt and Pepper Tofu!
+                Ingredients: Firm tofu, salt, pepper, garlic, chili flakes, cornstarch
+                Cooking Time: 25 minutes
+                Description: Crispy tofu seasoned with salt, pepper, and aromatic spices
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Shanghai Scallion Oil Noodles Recipe
+    public void displayShanghaiScallionOilNoodlesRecipe(){
+        setRecipes("""
+                You Selected Shanghai Scallion Oil Noodles!
+                Ingredients: Noodles, scallions, soy sauce, sugar, sesame oil
+                Cooking Time: 15 minutes
+                Description: Simple yet flavorful noodles tossed in fragrant scallion oil
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Pineapple Chicken Stir-Fry Recipe
+    public void displayPineappleChickenStirFryRecipe(){
+        setRecipes("""
+                You Selected Pineapple Chicken Stir-Fry!
+                Ingredients: Chicken, pineapple, bell peppers, soy sauce, garlic, ginger
+                Cooking Time: 25 minutes
+                Description: Sweet and savory stir-fry with juicy pineapple chunks
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Chinese Tomato and Egg Stir-Fry Recipe
+    public void displayChineseTomatoAndEggStirFry(){
+        setRecipes("""
+                You Selected Chinese Tomato and Egg Stir-Fry!
+                Ingredients: Eggs, tomatoes, garlic, soy sauce, sugar, scallions
+                Cooking Time: 15 minutes
+                Description: A comforting dish with soft scrambled eggs and sweet tomatoes
+                """);
+        System.out.println(getRecipes());
     }
 }

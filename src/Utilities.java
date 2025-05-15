@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Utilities {
     private static final Scanner scan = new Scanner(System.in);
 
-    //Todo add more comments
+    // Todo add an option at the end of selecting recipe to go back and select another
+    // ToDo make the app look better. Add things that would make the design better
 
     Recipes recipes = new Recipes();
     FileHandling fileHandling = new FileHandling();
@@ -529,24 +530,34 @@ public class Utilities {
                             switch (finalChoice12) {
                                 // Display individual Chinese recipes
                                 case 1:
+                                    recipes.displaySpicyGarlicEggplantRecipe();
                                     break outerLoop;
                                 case 2:
+                                    recipes.displayCrispyHoneyWalnutShrimpRecipe();
                                     break outerLoop;
                                 case 3:
+                                    recipes.displaySzechuanPepperChickenRecipe();
                                     break outerLoop;
                                 case 4:
+                                    recipes.displayBraisedPorkBellyRecipe();
                                     break outerLoop;
                                 case 5:
+                                    recipes.displayCantoneseSteamedFishRecipe();
                                     break outerLoop;
                                 case 6:
+                                    recipes.displayBlackBeanBeefStirFryRecipe();
                                     break outerLoop;
                                 case 7:
+                                    recipes.displaySaltAndPepperTofuRecipe();
                                     break outerLoop;
                                 case 8:
+                                    recipes.displayShanghaiScallionOilNoodlesRecipe();
                                     break outerLoop;
                                 case 9:
+                                    recipes.displayPineappleChickenStirFryRecipe();
                                     break outerLoop;
                                 case 10:
+                                    recipes.displayChineseTomatoAndEggStirFry();
                                     break outerLoop;
                                 default:
                                     System.out.println("Invalid Recipe");
