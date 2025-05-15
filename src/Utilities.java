@@ -447,24 +447,34 @@ public class Utilities {
                             switch (finalChoice10) {
                                 // Displays individual Dinner Italian recipe names
                                 case 1:
+                                    recipes.displayPastaAlPomodoroRecipe();
                                     break outerLoop;
                                 case 2:
+                                    recipes.displaySpaghettiCarbonaraRecipe();
                                     break outerLoop;
                                 case 3:
+                                    recipes.displayDinnerMargheritaPizzaRecipe();
                                     break outerLoop;
                                 case 4:
+                                    recipes.displayOssoBucoRecipe();
                                     break outerLoop;
                                 case 5:
+                                    recipes.displayDinnerRisottoAllaMilaneseRecipe();
                                     break outerLoop;
                                 case 6:
+                                    recipes.displayDinnerEggplantParmesanRecipe();
                                     break outerLoop;
                                 case 7:
+                                    recipes.displayDinnerGnocchiWithPestoRecipe();
                                     break outerLoop;
                                 case 8:
+                                    recipes.displayChickenPiccataRecipe();
                                     break outerLoop;
                                 case 9:
+                                    recipes.displayStuffedShellsRecipe();
                                     break outerLoop;
                                 case 10:
+                                    recipes.displayShrimpFraDiavoloRecipe();
                                     break outerLoop;
                                 default:
                                     System.out.println("Invalid Recipe");

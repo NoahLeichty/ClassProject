@@ -1082,9 +1082,120 @@ public class Recipes {
         System.out.println(getRecipes());
     }
 
-    // Displaying recipe names for Dinner Italian
+    /// Displaying recipe names for Dinner Italian
     public void displayDinnerItalianRecipeNames(){
-
+        setRecipeName("Pasta al Pomodoro");
+        setRecipeName("Spaghetti Carbonara");
+        setRecipeName("Margherita Pizza");
+        setRecipeName("Osso Buco (Braised Veal Shank)");
+        setRecipeName("Risotto alla Milanese");
+        setRecipeName("Eggplant Parmesan (Melanzane alla Parmigiana)");
+        setRecipeName("Gnocchi with Pesto");
+        setRecipeName("Chicken Piccata");
+        setRecipeName("Stuffed Shells");
+        setRecipeName("Shrimp Fra Diavolo");
+        System.out.println(getRecipeName());
+    }
+    /// Displaying recipes for Dinner Italian
+    // Displays Pasta al Pomodoro Recipe
+    public void displayPastaAlPomodoroRecipe(){
+        setRecipes("""
+                You Selected Pasta al Pomodoro!
+                Ingredients: Fresh tomatoes, garlic, olive oil, basil, salt, pepper, spaghetti
+                Cooking Time: 20 minutes
+                Description: A simple yet flavorful pasta dish with fresh tomatoes and basil
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Spaghetti Carbonara Recipe
+    public void displaySpaghettiCarbonaraRecipe(){
+        setRecipes("""
+                You Selected Spaghetti Carbonara!
+                Ingredients: Spaghetti, eggs, pancetta, Parmesan cheese, black pepper
+                Cooking Time: 25 minutes
+                Description: A creamy, savory pasta dish with crispy pancetta and rich egg-based sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Margherita Pizza Recipe
+    public void displayDinnerMargheritaPizzaRecipe(){
+        setRecipes("""
+                You Selected Margherita Pizza!
+                Ingredients: Pizza dough, tomato sauce, fresh mozzarella, basil, olive oil
+                Cooking Time: 30 minutes
+                Description: A classic Italian pizza with simple yet flavorful ingredients
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Osso Buco Recipe
+    public void displayOssoBucoRecipe(){
+        setRecipes("""
+                You Selected Osso Buco!
+                Ingredients: Veal shank, carrots, celery, onions, white wine, broth, tomatoes
+                Cooking Time: 2 hours
+                Description: A slow-braised veal dish with a rich, aromatic sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Risotto alla Milanese Recipe
+    public void displayDinnerRisottoAllaMilaneseRecipe(){
+        setRecipes("""
+                You Selected Risotto alla Milanese!
+                Ingredients: Arborio rice, saffron, butter, Parmesan cheese, broth
+                Cooking Time: 35 minutes
+                Description: A creamy, golden risotto infused with saffron for a rich flavor
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Eggplant Parmesan Recipe
+    public void displayDinnerEggplantParmesanRecipe(){
+        setRecipes("""
+                You Selected Eggplant Parmesan!
+                Ingredients: Eggplant, tomato sauce, mozzarella, Parmesan cheese, breadcrumbs
+                Cooking Time: 45 minutes
+                Description: Layers of crispy eggplant, rich tomato sauce, and melted cheese
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Gnocchi with Pesto Recipe
+    public void displayDinnerGnocchiWithPestoRecipe(){
+        setRecipes("""
+                You Selected Gnocchi with Pesto!
+                Ingredients: Potato gnocchi, basil pesto, Parmesan cheese, pine nuts
+                Cooking Time: 20 minutes
+                Description: Soft, pillowy gnocchi coated in fragrant basil pesto
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Chicken Piccata Recipe
+    public void displayChickenPiccataRecipe(){
+        setRecipes("""
+                You Selected Chicken Piccata!
+                Ingredients: Chicken breast, lemon juice, capers, butter, white wine
+                Cooking Time: 30 minutes
+                Description: A tangy and buttery chicken dish with capers and lemon
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Stuffed Shells Recipe
+    public void displayStuffedShellsRecipe(){
+        setRecipes("""
+                You Selected Stuffed Shells!
+                Ingredients: Pasta shells, ricotta cheese, mozzarella, spinach, marinara sauce
+                Cooking Time: 40 minutes
+                Description: Jumbo pasta shells stuffed with creamy ricotta and baked in marinara sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Shrimp Fra Diavolo Recipe
+    public void displayShrimpFraDiavoloRecipe(){
+        setRecipes("""
+                You Selected Shrimp Fra Diavolo!
+                Ingredients: Shrimp, garlic, tomatoes, red pepper flakes, olive oil, pasta
+                Cooking Time: 30 minutes
+                Description: A spicy seafood pasta dish with bold flavors
+                """);
+        System.out.println(getRecipes());
     }
     // Displaying recipe names for Dinner Japanese
     public void displayDinnerJapaneseRecipeNames(){
