@@ -966,10 +966,122 @@ public class Recipes {
                 """);
         System.out.println(getRecipes());
     }
-    // Displaying recipe names for Dinner American
+    /// Displaying recipe names for Dinner American
     public void displayDinnerAmericanRecipeNames(){
-
+        setRecipeName("Classic Cheeseburger");
+        setRecipeName("BBQ Pulled Pork Sandwiches");
+        setRecipeName("Mac and Cheese");
+        setRecipeName("Sloppy Joes");
+        setRecipeName("Baked Ziti");
+        setRecipeName("Chicken Caesar Salad Wraps");
+        setRecipeName("Loaded Potato Casserole");
+        setRecipeName("Philly Cheese Steak");
+        setRecipeName("One-Pan Chicken and Vegetables");
+        setRecipeName("Slow Cooker Chili");
+        System.out.println(getRecipeName());
     }
+    ///  Displaying recipes for Dinner American
+    // Displays Classic Cheeseburger recipe
+    public void displayClassicCheeseburgerRecipe(){
+        setRecipes("""
+                You Selected Classic Cheeseburger!
+                Ingredients: Ground beef, salt, pepper, hamburger buns, American cheese, lettuce, tomato, pickles, condiments
+                Cooking Time: 15 minutes
+                Description: A juicy beef patty grilled to perfection, topped with melted cheese and fresh toppings
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays BBQ Pulled Pork Sandwiches recipe
+    public void displayBBQPulledPorkSandwichesRecipe(){
+        setRecipes("""
+                You Selected BBQ Pulled Pork Sandwiches!
+                Ingredients: Pulled pork, BBQ sauce, sandwich rolls, coleslaw (optional)
+                Cooking Time: 4 hours (slow-cooked)
+                Description: Tender, smoky pulled pork coated in tangy BBQ sauce, served on a toasted bun
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Mac and Cheese recipe
+    public void displayDinnerMacAndCheeseRecipe(){
+        setRecipes("""
+                You Selected Mac and Cheese!
+                Ingredients: Elbow macaroni, butter, milk, cheddar cheese, flour, salt, pepper
+                Cooking Time: 30 minutes
+                Description: Creamy, cheesy pasta baked to golden perfection
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Sloppy Joes recipe
+    public void displayDinnerSloppyJoesRecipe(){
+        setRecipes("""
+                You Selected Sloppy Joes!
+                Ingredients: Ground beef, onion, tomato sauce, Worcestershire sauce, hamburger buns
+                Cooking Time: 20 minutes
+                Description: A messy but delicious sandwich with seasoned ground beef in a rich tomato sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Baked Ziti recipe
+    public void displayBakedZitiRecipe(){
+        setRecipes("""
+                You Selected Baked Ziti!
+                Ingredients: Ziti pasta, marinara sauce, ricotta cheese, mozzarella cheese, Parmesan cheese
+                Cooking Time: 40 minutes
+                Description: A comforting baked pasta dish layered with cheese and rich tomato sauce
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Chicken Caesar Salad Wraps recipe
+    public void displayChickenCaesarSaladWrapsRecipe(){
+        setRecipes("""
+                You Selected Chicken Caesar Salad Wraps!
+                Ingredients: Cooked chicken, Caesar dressing, romaine lettuce, tortillas, Parmesan cheese
+                Cooking Time: 15 minutes
+                Description: A fresh and flavorful wrap with grilled chicken and tangy Caesar dressing
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Loaded Potato Casserole recipe
+    public void displayLoadedPotatoCasseroleRecipe(){
+        setRecipes("""
+                You Selected Loaded Potato Casserole!
+                Ingredients: Russet potatoes, butter, sour cream, cheddar cheese, bacon, chives
+                Cooking Time: 45 minutes
+                Description: A hearty baked potato dish packed with creamy, cheesy goodness
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Philly Cheese Steak recipe
+    public void displayDinnerPhillyCheeseSteakRecipe(){
+        setRecipes("""
+                You Selected Philly Cheese Steak!
+                Ingredients: Thinly sliced beef, hoagie roll, provolone cheese, onions, bell peppers
+                Cooking Time: 20 minutes
+                Description: A savory sandwich with tender beef, melted cheese, and sautéed onions
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays One-Pan Chicken and Vegetables recipe
+    public void displayOnePanChickenAndVegetablesRecipe(){
+        setRecipes("""
+                You Selected One-Pan Chicken and Vegetables!
+                Ingredients: Chicken thighs, mixed vegetables (carrots, bell peppers, zucchini), olive oil, Italian seasoning
+                Cooking Time: 40 minutes
+                Description: A simple yet flavorful roasted chicken dish with seasoned vegetables
+                """);
+        System.out.println(getRecipes());
+    }
+    // Displays Slow Cooker Chili recipe
+    public void displaySlowCookerChiliRecipe(){
+        setRecipes("""
+                You Selected Slow Cooker Chili!
+                Ingredients: Ground beef, kidney beans, tomatoes, chili powder, onion, garlic
+                Cooking Time: 6 hours (slow-cooked)
+                Description: A hearty and spicy stew packed with beef, beans, and bold flavors
+                """);
+        System.out.println(getRecipes());
+    }
+
     // Displaying recipe names for Dinner Italian
     public void displayDinnerItalianRecipeNames(){
 

@@ -406,24 +406,34 @@ public class Utilities {
                             switch (finalChoice9) {
                                 // Display individual Dinner American recipes
                                 case 1:
+                                    recipes.displayClassicCheeseburgerRecipe();
                                     break outerLoop;
                                 case 2:
+                                    recipes.displayBBQPulledPorkSandwichesRecipe();
                                     break outerLoop;
                                 case 3:
+                                    recipes.displayDinnerMacAndCheeseRecipe();
                                     break outerLoop;
                                 case 4:
+                                    recipes.displayDinnerSloppyJoesRecipe();
                                     break outerLoop;
                                 case 5:
+                                    recipes.displayBakedZitiRecipe();
                                     break outerLoop;
                                 case 6:
+                                    recipes.displayChickenCaesarSaladWrapsRecipe();
                                     break outerLoop;
                                 case 7:
+                                    recipes.displayLoadedPotatoCasseroleRecipe();
                                     break outerLoop;
                                 case 8:
+                                    recipes.displayDinnerPhillyCheeseSteakRecipe();
                                     break outerLoop;
                                 case 9:
+                                    recipes.displayOnePanChickenAndVegetablesRecipe();
                                     break outerLoop;
                                 case 10:
+                                    recipes.displaySlowCookerChiliRecipe();
                                     break outerLoop;
                                 default:
                                     System.out.println("Invalid Recipe");
